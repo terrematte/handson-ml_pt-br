@@ -7,7 +7,8 @@ Aqui encontramos exemplos de códigos e as soluções Do exercício do livro O'R
 [Hands-on Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do):
 
 [![book](http://akamaicovers.oreilly.com/images/0636920052289/cat.gif)](http://shop.oreilly.com/product/0636920052289.do)
-Abra os Notebooks [Jupyter] (http://jupyter.org/) que te interesse:
+
+Abra os Notebooks [Jupyter](http://jupyter.org/) que te interesse:
 
 * Através do [jupyter.org's notebook viewer](http://nbviewer.jupyter.org/github/ageron/handson-ml/blob/master/index.ipynb)
     * note: [github.com's notebook viewer](https://github.com/ageron/handson-ml/blob/master/index.ipynb) também funciona, mas é mais lento e as fórmulas matemáticas não são exibidas corretamente,
@@ -18,6 +19,7 @@ Abra os Notebooks [Jupyter] (http://jupyter.org/) que te interesse:
 Primeiro, você precisará instalar o [git] (https://git-scm.com/), se você não o tiver já.
 
 Em seguida, clone este repositório abrindo um terminal e digitando os seguintes comandos:
+
     $ cd $HOME  # ou qualquer outro diretório de desenvolvimento que você preferir
     $ git clone https://github.com/ageron/handson-ml.git
     $ cd handson-ml
@@ -86,7 +88,7 @@ Em seguida, você pode, opcionalmente, criar um ambiente isolado. Isso é recome
 
 Isto cria um novo diretório chamado `env` no diretório atual, contendo um ambiente Python isolado baseado no Python 3. Se você instalou múltiplas versões do Python 3 em seu sistema, você pode substituir ```which python3``` pelo caminho para o executável Python que você preferir usar.
 
-Agora você deve ativar este ambiente. Você precisará executar este comando toda vez que quiser usar este ambiente.
+Agora você deve ativar este ambiente. Você terá executar este comando toda vez que quiser usar este ambiente.
 
     $ source ./env/bin/activate
 
@@ -94,7 +96,7 @@ No Windows, o comando é um pouco diferente:
 
     $ .\env\Scripts\activate
 
-Em seguida, use pip para instalar os pacotes python necessários. Se você não estiver usando virtualenv, você deve adicionar a opção `--user` (alternativamente você pode instalar as bibliotecas em todo o sistema, mas isso provavelmente irá requerer direitos de administrador, por exemplo usando` sudo pip3` em vez de `pip3` no Linux) .
+Em seguida, use pip para instalar os pacotes python necessários. Se você não estiver usando virtualenv, você deve adicionar a opção `--user` (ou você pode instalar as bibliotecas em todo o sistema, mas isso provavelmente irá requerer acesso como administrador, por exemplo usando `sudo pip3` em vez de `pip3` no Linux) .
 
     $ pip3 install --upgrade -r requirements.txt
 
@@ -102,11 +104,11 @@ Em seguida, use pip para instalar os pacotes python necessários. Se você não 
 
 ## Iniciando com Jupyter
 
-Se você quiser usar as extensões Jupyter (opcional, elas são úteis principalmente para ter bons índices), primeiro você precisa instalá-las:
+Se você preferir usar as extensões Jupyter (opcional, elas são úteis principalmente para ter acesso ao Sumário), primeiro você precisa instalá-las:
 
     $ jupyter contrib nbextension install --user
 
-Em seguida, você pode ativar uma extensão, como a extensão Table of Contents (2):
+Em seguida, você pode ativar uma extensão, como a extensão Sumário (2):
 
     $ jupyter nbextension enable toc2/main
 
@@ -114,11 +116,12 @@ Em seguida, você pode ativar uma extensão, como a extensão Table of Contents 
 
     $ jupyter notebook
     
-Isso deve abrir o seu navegador, e você deve ver a visão em árvore do Jupyter, com o conteúdo do diretório atual. Se o seu navegador não abrir automaticamente, visite [localhost:8888](http://localhost:8888/tree). Clique em `index.ipynb` para começar!
+Isso deve abrir o seu navegador, e você terá a visão em árvore do Jupyter, com o conteúdo do diretório atual. Se o seu navegador não abrir automaticamente, acesse [localhost:8888](http://localhost:8888/tree). Clique em `index.ipynb` para começar!
 
 Note: você também pode visitar [http://localhost:8888/nbextensions](http://localhost:8888/nbextensions) para ativar e configurar as extensões do Jupyter.
 
-Parabéns! Você está pronto para aprender Machine Learning, hands on!
+Parabéns! Você está pronto para aprender Aprendizagem de Máquina, mão na massa!
 
-# Contribuidores
-Gostaria de agradecer a todos que contribuíram para este projeto, seja fornecendo feedback útil, arquivando problemas ou enviando ```Pull Requests```. Agradecimentos especiais vão para Steven Bunkley e Ziembla que criaram o diretório `docker`.
+# Contribuições
+
+Agradeço aos autores do livro e contribuidores do projeto. Aceito também feedbacks para a tradução e contribuições.
